@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#title {
+  background: #ff4c68
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.75rem;
+  color: #8f8f8f;
+  padding: 0 3.5rem 0;
+}
+
+.colored-section{
+  background-color: #ef8172;
+}
+
+.white-section {
+  background-color: white;
+}
+
+#title {
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 0 15px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+}
+
+.img-iphone {
+  position: absolute;
+  width: 20%;
+  transform: rotate(20deg);
+}
+
+/* Download Buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* Section 2 */
+
+.features-box {
+  background-color: white;
+  position: relative;
+  padding: 5rem 5rem;
+}
+
+.icon {
+  color: #ef8172;
+  padding: 0 0 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.padding {
+  padding: 0 2rem 0;
+}
+
+/* Section 3 */
+
+#testimonials {
+  color: #fff;
+}
+
+.testimonial-text{
+  color: #fff;
+  font-size: 2.5rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+#pricing {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.price-title {
+  color: black;
+}
+
+.card-body-title {
+  color:black;
+}
+
+.new-container {
+  margin: 0px auto;
+}
+
+.pad1 {
+  padding: 0 7rem;
+}
+
+.pad {
+  margin-top: 3rem;
+}
+
+
+/* Last section */
+
+
+.cta-headline {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size:3.5rem;
+  padding: 4rem 10rem 0rem;
+}
+
+.but2 {
+  padding: 0rem 0 3rem;
+}
+
+/* Footer section */
+
+
+.footer-icons-div {
+  padding: 4rem 0 1rem 0;
+}
+
+.footer-icons {
+  padding: 0 1rem 0;
+}
+
+.copyright {
+  padding-bottom: 5rem;
+}
+
+
+
+/* media queries */
+@media screen and (max-width: 993px) {
+  .div-img-iphone {
+    postition: relative;
+    text-align: center;
+  }
+  .img-iphone {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    transform: rotate(0);
+}
